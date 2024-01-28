@@ -4,23 +4,45 @@ body {
 }
 
 .navbar {
-    border: 0;
+    border: 2px solid black;
     border-radius: 0;
+    background-color: rgb(190, 190, 190);
+    padding: 10px 0;
+}
+header{
+    position: fixed;
+    width: 100svw;
+    top: 0;
+}
+.navbar-brand{
+    font-size: 2em;
+}
+.navbar ul  li  a{
+    border: 1px solid black !important;
+    color: black !important;
+}
+.navbar ul{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100% !important;
+    background-color: white;
 }
 
 .navbar-default .navbar-brand{
     color: #1c1c20;
 }
-
+.body{
+    margin-top: 100px;
+}
 h2 {
     margin-top: 20px;
 }
 
 section {
-    border: 1px solid #000;
+    border: none;
     margin-top: 7%;
     margin-bottom: 3%;
     padding: 5%;
-    background-color: rgba(255, 0, 0, .7);
-    
+    background-color: rgb(190, 190, 190);
 }
